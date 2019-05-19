@@ -607,12 +607,16 @@ input.search-field {
 }
 
 @media (max-width: 576px) {
+	.c-hero-banner__image {
+		height: 350px;
+	}
 	.c-hero-banner__image img {
 		height: 350px;
 	}
 	.c-hero-banner .mask {
 		position: absolute;
 		top: 325px;
+		height: 38.2px;
 	}
 }
 
@@ -1081,6 +1085,11 @@ footer {
 		width: 70%;
 	}
 }
+
+@media (max-width: 576px) {
+	.main-hero {
+		height: 350px;
+	}
 
 @media only screen and (min-width: 992px) {
 	.love-story p {
