@@ -1153,6 +1153,11 @@ footer {
 	margin-bottom: 30px;
 }
 
+@media (max-width: 576px) {
+.date-section__block .title--special {
+    line-height: 60px;
+}
+
 .date-section__flowers {
 	max-width: 300px;
 	padding-bottom: 30px;
