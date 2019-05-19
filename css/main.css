@@ -606,6 +606,16 @@ input.search-field {
 	width: 100%;
 }
 
+@media (max-width: 576px) {
+	.c-hero-banner__image img {
+		height: 350px;
+	}
+	.c-hero-banner .mask {
+		position: absolute;
+		top: 325px;
+	}
+}
+
 .c-hero-banner--small {
 	max-height: 50vh;
 	overflow: hidden;
