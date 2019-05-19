@@ -1156,6 +1156,7 @@ footer {
 @media (max-width: 576px) {
 .date-section__block .title--special {
     line-height: 60px;
+	}
 }
 
 .date-section__flowers {
